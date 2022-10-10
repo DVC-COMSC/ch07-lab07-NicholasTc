@@ -13,5 +13,5 @@ for y in range(len(numbers) - 1, -1, -1):
 #         numbers.remove(n)
 
 evenlist.reverse()
-print("The list numbers \n", numbers)
-print("The list for even index elements\n", evenlist)
+print("The list numbers ", numbers)
+print("The list for even index elements ", evenlist)
