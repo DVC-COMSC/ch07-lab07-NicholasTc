@@ -1,7 +1,3 @@
-
-# ******************************
-# Make your Code
-# ******************************
 numbers = input().split()
 evenlist = []
 
@@ -16,5 +12,5 @@ for n in numbers:
     if n in evenlist:
         numbers.remove(n)
 
-print("The list numbers \n", numbers)
-print("The list for even index elements\n", evenlist)
+print(numbers)
+print(evenlist)
